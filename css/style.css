@@ -157,11 +157,6 @@ html {
 
 /* End Sidebar */
 /* Start Content */
-/* @media (max-width: 767px) {
-    .content-all {
-        margin: 10px;
-    }
-} */
 
 .head .search::before {
     font-family: var(--fa-style-family-classic);
@@ -1148,12 +1143,7 @@ html {
     flex: 1;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
-/* @media (max-width: 767px) {
-    .files-page .files-content {
-        flex: 0;
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    }
-} */
+
 .files-content .file .icon:hover img{
     transform: rotate(6deg);
 }
